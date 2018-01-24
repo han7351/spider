@@ -25,8 +25,8 @@ def a(url, pn):
         positionName = a2['content']['positionResult']['result'][i]['positionName']
         formatCreateTime = a2['content']['positionResult']['result'][i]['formatCreateTime']
         salary = a2['content']['positionResult']['result'][i]['salary']
-        #print(str(i + 1) + '---' + str(positionId) + '----' + str(companyShortName) + '---' + str(
-         #  positionName) + '----' + str(salary)+ '----' + str(workYear) + '----' + str(district) + '----' + str(formatCreateTime))
+        print(str(i + 1) + '---' + str(positionId) + '----' + str(companyShortName) + '---' + str(
+           positionName) + '----' + str(salary)+ '----' + str(workYear) + '----' + str(district) + '----' + str(formatCreateTime))
         print(str(positionId))
 
         headera = {
