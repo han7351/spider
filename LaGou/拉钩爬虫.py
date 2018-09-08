@@ -8,7 +8,7 @@ from  bs4 import BeautifulSoup
 
 
 def a(url, pn):
-  date = {'first': 'true', 'pn': str(pn), 'kd': '数据挖掘'}
+  date = {'first': 'true', 'pn': str(pn), 'kd': '前端'}
   try:
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.37 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
